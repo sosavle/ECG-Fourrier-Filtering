@@ -1,35 +1,35 @@
-function varargout = LuisSosa_Test3(varargin)
-% LUISSOSA_TEST3 MATLAB code for LuisSosa_Test3.fig
-%      LUISSOSA_TEST3, by itself, creates a new LUISSOSA_TEST3 or raises the existing
+function varargout = ECG_Filter(varargin)
+% ECG_FILTER MATLAB code for ECG_Filter.fig
+%      ECG_FILTER, by itself, creates a new ECG_FILTER or raises the existing
 %      singleton*.
 %
-%      H = LUISSOSA_TEST3 returns the handle to a new LUISSOSA_TEST3 or the handle to
+%      H = ECG_FILTER returns the handle to a new ECG_FILTER or the handle to
 %      the existing singleton*.
 %
-%      LUISSOSA_TEST3('CALLBACK',hObject,eventData,handles,...) calls the local
-%      function named CALLBACK in LUISSOSA_TEST3.M with the given input arguments.
+%      ECG_FILTER('CALLBACK',hObject,eventData,handles,...) calls the local
+%      function named CALLBACK in ECG_FILTER.M with the given input arguments.
 %
-%      LUISSOSA_TEST3('Property','Value',...) creates a new LUISSOSA_TEST3 or raises the
+%      ECG_FILTER('Property','Value',...) creates a new ECG_FILTER or raises the
 %      existing singleton*.  Starting from the left, property value pairs are
-%      applied to the GUI before LuisSosa_Test3_OpeningFcn gets called.  An
+%      applied to the GUI before ECG_Filter_OpeningFcn gets called.  An
 %      unrecognized property name or invalid value makes property application
-%      stop.  All inputs are passed to LuisSosa_Test3_OpeningFcn via varargin.
+%      stop.  All inputs are passed to ECG_Filter_OpeningFcn via varargin.
 %
 %      *See GUI Options on GUIDE's Tools menu.  Choose "GUI allows only one
 %      instance to run (singleton)".
 %
 % See also: GUIDE, GUIDATA, GUIHANDLES
 
-% Edit the above text to modify the response to help LuisSosa_Test3
+% Edit the above text to modify the response to help ECG_Filter
 
-% Last Modified by GUIDE v2.5 15-Nov-2018 18:53:21
+% Last Modified by GUIDE v2.5 09-Nov-2019 17:02:23
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
                    'gui_Singleton',  gui_Singleton, ...
-                   'gui_OpeningFcn', @LuisSosa_Test3_OpeningFcn, ...
-                   'gui_OutputFcn',  @LuisSosa_Test3_OutputFcn, ...
+                   'gui_OpeningFcn', @ECG_Filter_OpeningFcn, ...
+                   'gui_OutputFcn',  @ECG_Filter_OutputFcn, ...
                    'gui_LayoutFcn',  [] , ...
                    'gui_Callback',   []);
 if nargin && ischar(varargin{1})
@@ -44,26 +44,26 @@ end
 % End initialization code - DO NOT EDIT
 
 
-% --- Executes just before LuisSosa_Test3 is made visible.
-function LuisSosa_Test3_OpeningFcn(hObject, eventdata, handles, varargin)
+% --- Executes just before ECG_Filter is made visible.
+function ECG_Filter_OpeningFcn(hObject, eventdata, handles, varargin)
 % This function has no output args, see OutputFcn.
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-% varargin   command line arguments to LuisSosa_Test3 (see VARARGIN)
+% varargin   command line arguments to ECG_Filter (see VARARGIN)
 
-% Choose default command line output for LuisSosa_Test3
+% Choose default command line output for ECG_Filter
 handles.output = hObject;
 
 % Update handles structure
 guidata(hObject, handles);
 warning('off','all');
 
-% UIWAIT makes LuisSosa_Test3 wait for user response (see UIRESUME)
+% UIWAIT makes ECG_Filter wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
 
 % --- Outputs from this function are returned to the command line.
-function varargout = LuisSosa_Test3_OutputFcn(hObject, eventdata, handles) 
+function varargout = ECG_Filter_OutputFcn(hObject, eventdata, handles) 
 % varargout  cell array for returning output args (see VARARGOUT);
 % hObject    handle to figure
 % eventdata  reserved - to be defined in a future version of MATLAB
