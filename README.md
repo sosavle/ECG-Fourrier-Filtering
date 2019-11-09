@@ -7,3 +7,4 @@ Noise is an inevitable part of any data, but Fourrier transforms allow us to get
 
 You will need to have MATLAB installed in your computer before being able to execute the program. But aside from that, it's simple! Open up 
 
+![Screenshot](https://github.com/sosavle/ECG-Fourrier-Filtering/blob/master/Sample.PNG)
